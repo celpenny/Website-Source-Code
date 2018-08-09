@@ -4,9 +4,13 @@ tags:
 - SAMPLE
 ---
 
+---
+
 > 如果文中所提示的内容在网页并没有显示，请打开源代码页面查看内容
 > 在阅读本文后，如果需要隐藏本文，请在最上方`Front-matter`中加上一行
 > `notshow: true` 
+
+源代码：[Website-Source-Code](https://github.com/celpenny/Website-Source-Code)
 
 ### 页面的初始化定义
 
@@ -145,6 +149,33 @@ title: 鳖
 date: 2018/8/10
 ---
 ```
+文章文件名尽量用英文或者当天日期 如2018-8-10
 
 
-大概暂时没想到别的
+
+### Hexo的安装/页面更新及部署
+
+[文档|Hexo](https://hexo.io/zh-cn/docs/)
+
+需要安装Node.js和git
+
+这个我明天跟你说
+
+我这里无法使用npm命令，不知道是网的问题还是墙
+
+总之明天再说
+
+
+
+### 部署命令
+
+`hexo clean && hexo g && hexo d`
+
+如果出现`error deployer not found:github`
+
+执行 `npm install hexo-deployer-git --save`
+
+
+
+日哦我本来以为用户不需要命令行的
+
